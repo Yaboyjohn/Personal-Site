@@ -5,6 +5,7 @@ import { prefixLink } from 'gatsby-helpers';
 
 import 'css/_index.scss';
 
+
 export default class Template extends Component {
   render () {
     return (
@@ -20,9 +21,16 @@ export default class Template extends Component {
             </div>
             <div className="navbar__link--wrapper">
               <Link
-                to={prefixLink('/about/')} className="navbar__link"
+                to={prefixLink('/projects/')} className="navbar__link"
               >
-                About
+                Projects
+              </Link>
+            </div>
+            <div className="navbar__link--wrapper">
+              <Link
+                to={prefixLink('/contact/')} className="navbar__link"
+              >
+                Contact
               </Link>
             </div>
           </div>
@@ -38,4 +46,3 @@ export default class Template extends Component {
 Template.propTypes = {
   children: PropTypes.any
 };
-

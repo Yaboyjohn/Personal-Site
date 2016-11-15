@@ -15,51 +15,14 @@ export default class Index extends React.Component {
   componentDidMount() {}
 
   render () {
-    const data = [
-      {
-        name: 'Christian Kitty',
-        title: 'Senior Executive Advisor'
-      },
-      {
-        name: 'Julia Kitty',
-        title: 'Kitty'
-      },
-      {
-        name: 'Cow Kitty',
-        title: 'Cow'
-      },
-      {
-        name: 'Bunny Kitty',
-        title: 'Bunny'
-      }
-    ];
-
-    const peopleElements = _.map(data, (person, index) => {
-      return (
-        <div
-          key={ `personElem-${index}` }
-          className="person__wrapper"
-        >
-          <h1>
-            { person.name }
-          </h1>
-          <h3>
-            { person.title }
-          </h3>
-        </div>
-      );
-    });
-
     return (
       <div className="page page--about">
-        <Helmet
-          title={config.siteTitle}
-        />
-        <h1>
-          Home
-        </h1>
-        <div className="repeating">
-          { peopleElements }
+        <h1 className="title john">John</h1>
+        <h1 className="title ang">Ang</h1>
+        <div className="page--overlay">
+          <Helmet
+            title={config.siteTitle}
+          />
         </div>
       </div>
     );
