@@ -19,9 +19,9 @@ export default class Html extends Component {
     return (
       <html lang="en">
         <head>
-          <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-          <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
-          <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">   
+          <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
+          <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet"/>
+          <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>   
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
