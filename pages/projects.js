@@ -18,11 +18,10 @@ export default class About extends Component {
           <a className="twitbit-link" href="https://github.com/Yaboyjohn/TwitBit">Check it out here>>></a>
         </div>
         <div className="pics-container">
-          <img className="twitbit-pic home" src="img/home.png"></img>
-          <img className="twitbit-pic score" src="img/score.png"></img>
-          <img className="twitbit-pic maps" src="maps.png"></img>
-          <img className="twitbit-pic history" src="history.png"></img>
-        </div>
+          <img className="twitbit-pic home" src={ prefixLink('img/home.png') }/>
+          <img className="twitbit-pic score" src={ prefixLink('img/score.png') }/>
+          <img className="twitbit-pic maps" src={ prefixLink('img/map.png') }/>
+          <img className="twitbit-pic history" src={ prefixLink('img/history.png') }/>
         <div className="ubeareats-page">
 
         </div>
