@@ -31,7 +31,7 @@ export default class Index extends React.Component {
     return (
       <div className="page page--about"
       style={{
-              backgroundImage: `url(${prefixLink('/css/img/newyork.jpg')})`
+              backgroundImage: `url(${prefixLink('/img/newyork.jpg')})`
             }}>
         <div className="overlay"></div>
           <h1 className="title john">John</h1>
@@ -44,7 +44,7 @@ export default class Index extends React.Component {
         <div className="about--page">
           <h1 className="about-title">ABOUT</h1>
           <div className="about-line"></div>
-          <img className="john" src="john.jpg"></img>
+          <img className="john" src="img/john.jpg"></img>
           <h1 className="cal">UC Berkeley '19</h1>
           <h3 className="about-description">Hi! I'm currently a sophomore at UC Berkeley
           originally from Diamond Bar, California.</h3>

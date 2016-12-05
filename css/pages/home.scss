@@ -29,7 +29,7 @@
 
   .description {
     color: white;
-    font-family: Hind;
+    font-family: "Hind";
     font-weight: lighter;
     z-index: 3;
     position: absolute;
@@ -234,7 +234,7 @@
       margin: 0;
       color: white;
       text-align: center;
-      font-family: Hind;
+      font-family: "Hind";
       z-index: 5;
 
       @media (max-width: 630px) {
@@ -259,7 +259,7 @@
     top: 100%;
 
     .about-title {
-      font-family: Open Sans;
+      font-family: "Open Sans";
       font-size: 50px;
       top: 6%;
       left: 45%;
@@ -284,14 +284,14 @@
       position: absolute;
       top: 30%;
       left: 55%;
-      font-family: Lato;
+      font-family: "Lato";
     }
 
     .about-description {
       position: absolute;
       top: 40%;
       left: 45%;
-      font-family: Lato;
+      font-family: "Lato";
     }
   }
 }

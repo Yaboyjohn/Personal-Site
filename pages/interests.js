@@ -7,7 +7,10 @@ import { prefixLink } from 'gatsby-helpers';
 export default class About extends Component {
   render () {
     return (
-      <div className="page page--interests">
+      <div className="page page--interests"
+      style={{
+              backgroundImage: `url(${prefixLink('/img/porter.jpg')})`
+            }}>
         <div className="music-overlay"></div>
         <h1 className="music">Music</h1>
         <Helmet
