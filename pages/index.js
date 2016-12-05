@@ -31,7 +31,7 @@ export default class Index extends React.Component {
     return (
       <div className="page page--about"
       style={{
-              backgroundImage: `url(${prefixLink('/img/newyork.jpg')})`
+              backgroundImage: `url(${prefixLink('/../img/newyork.jpg')})`
             }}>
         <div className="overlay"></div>
           <h1 className="title john">John</h1>
