@@ -19,6 +19,9 @@ export default class Html extends Component {
     return (
       <html lang="en">
         <head>
+          <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato"/>
+          <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Hind"/>
+          <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans"/>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
@@ -46,4 +49,3 @@ export default class Html extends Component {
 Html.propTypes = {
   body: PropTypes.string
 };
-

@@ -21,6 +21,13 @@ export default class Template extends Component {
             </div>
             <div className="navbar__link--wrapper">
               <Link
+                to={prefixLink('/interests/')} className="navbar__link"
+              >
+                Interests
+              </Link>
+            </div>
+            <div className="navbar__link--wrapper">
+              <Link
                 to={prefixLink('/projects/')} className="navbar__link"
               >
                 Projects

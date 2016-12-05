@@ -1,18 +1,71 @@
 .headroom-wrapper {
-  background-color: black;
+  background-color: #040812;
   padding-bottom: 50px;
+  z-index: 5;
 
   .navbar {
-    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: fixed;
+    z-index: 15;
+    width: 100%;
 
     &:hover {
       cursor: pointer;
     }
 
+    @media (max-width: 1200px) {
+        left: 45%;
+    }
+
+    @media (max-width: 1025px) {
+        left: 41%;
+    }
+
+    @media (max-width: 900px) {
+        left: 37%;
+    }
+
+    @media (max-width: 750px) {
+        left: 30%;
+    }
+
+    @media (max-width: 610px) {
+        left: 30%;
+    }
+
+    @media (max-width: 530px) {
+        left: 23%;
+    }
+
+    @media (max-width: 470px) {
+        left: 30%;
+    }
+
+    @media (max-width: 400px) {
+        left: 22%;
+    }
+
     .navbar__link--wrapper {
+      left: 30%;
       display: inline-block;
       padding-left: 40px;
       padding-top: 15px;
+      padding-right: 40px;
+      padding-bottom: 15px;
+
+      @media (max-width: 630px) {
+          padding-right: 30px;
+      }
+
+      @media (max-width: 530px) {
+          padding-right: 15px;
+      }
+
+      @media (max-width: 470px) {
+          padding-right: 5px;
+          padding-left: 30px;
+      }
 
       .navbar__link {
         text-decoration: none;
@@ -21,6 +74,10 @@
 
         &:hover {
           color: rgb(85, 186, 250);
+        }
+
+        @media (max-width: 630px) {
+            font-size: 15px;
         }
       }
     }

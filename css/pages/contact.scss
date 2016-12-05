@@ -1,0 +1,40 @@
+.page {
+
+  .contacts-caption {
+    text-align: center;
+    padding-top: 1%;
+  }
+
+  .logos-container {
+    z-index: 10;
+    text-decoration: none;
+    list-style-type: none;
+    width: 40%;
+    left: 38%;
+    top: 400%;
+    position: absolute;
+
+    .github {
+      border-radius: 5px;
+      background-color: black;
+    }
+
+
+    li {
+      text-align: center;
+      display: inline-block;
+      width: 10%;
+      height: 10%;
+      margin-left: 15px;
+      margin-right: 15px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

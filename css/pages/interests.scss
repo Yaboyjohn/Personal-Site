@@ -1,0 +1,26 @@
+.page--interests {
+  background-image: url("img/porter.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 92.5vh;
+  position: absolute;
+
+  .music-overlay {
+    background-color: black;
+    opacity: 0.3;
+    width: 100%;
+    height: 92.5vh;
+  }
+
+  .music {
+    color: white;
+    font-size: 100px;
+    font-family: Hind;
+    position: absolute;
+    left: 39%;
+    top: 16%;
+  }
+}
